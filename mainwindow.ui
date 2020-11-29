@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>2181</width>
+    <height>889</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pushButton_blue">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>80</y>
+      <width>371</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image:url(:/image/bu.png);
+color:rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>打开蓝牙界面</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_left">
+    <property name="geometry">
+     <rect>
+      <x>990</x>
+      <y>20</y>
+      <width>201</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>左手</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_rigtht">
+    <property name="geometry">
+     <rect>
+      <x>1300</x>
+      <y>20</y>
+      <width>191</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>右手</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>150</y>
+      <width>41</width>
+      <height>311</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>c1</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_2">
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>c2</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_3">
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>c3</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_3">
+    <property name="geometry">
+     <rect>
+      <x>1031</x>
+      <y>150</y>
+      <width>151</width>
+      <height>311</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_3">
+     <item>
+      <widget class="QTextEdit" name="textEdit_c1"/>
+     </item>
+     <item>
+      <widget class="QTextEdit" name="textEdit_c2"/>
+     </item>
+     <item>
+      <widget class="QTextEdit" name="textEdit_c3"/>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_4">
+    <property name="geometry">
+     <rect>
+      <x>1390</x>
+      <y>150</y>
+      <width>501</width>
+      <height>311</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_4">
+     <item>
+      <widget class="QSlider" name="horizontalSlider_armx">
+       <property name="minimum">
+        <number>-70</number>
+       </property>
+       <property name="maximum">
+        <number>120</number>
+       </property>
+       <property name="value">
+        <number>0</number>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QSlider" name="horizontalSlider_army">
+       <property name="minimum">
+        <number>-120</number>
+       </property>
+       <property name="maximum">
+        <number>120</number>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QSlider" name="horizontalSlider_armz">
+       <property name="minimum">
+        <number>-90</number>
+       </property>
+       <property name="maximum">
+        <number>130</number>
+       </property>
+       <property name="value">
+        <number>130</number>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_5">
+    <property name="geometry">
+     <rect>
+      <x>1350</x>
+      <y>150</y>
+      <width>41</width>
+      <height>311</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_5">
+     <item>
+      <widget class="QLabel" name="label_4">
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>x</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_5">
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>y</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_6">
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>z</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_6">
+    <property name="geometry">
+     <rect>
+      <x>1890</x>
+      <y>150</y>
+      <width>161</width>
+      <height>311</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_6">
+     <item>
+      <widget class="QTextEdit" name="textEdit_x"/>
+     </item>
+     <item>
+      <widget class="QTextEdit" name="textEdit_y"/>
+     </item>
+     <item>
+      <widget class="QTextEdit" name="textEdit_z"/>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QSlider" name="horizontalSlider_c0">
+    <property name="geometry">
+     <rect>
+      <x>532</x>
+      <y>179</y>
+      <width>501</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Expanding" vsizetype="Maximum">
+      <horstretch>0</horstretch>
+      <verstretch>10</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>20</width>
+      <height>20</height>
+     </size>
+    </property>
+    <property name="minimum">
+     <number>-90</number>
+    </property>
+    <property name="maximum">
+     <number>90</number>
+    </property>
+    <property name="value">
+     <number>0</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QSlider" name="horizontalSlider_c1">
+    <property name="geometry">
+     <rect>
+      <x>532</x>
+      <y>274</y>
+      <width>501</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Expanding" vsizetype="Maximum">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>20</width>
+      <height>20</height>
+     </size>
+    </property>
+    <property name="minimum">
+     <number>-90</number>
+    </property>
+    <property name="maximum">
+     <number>90</number>
+    </property>
+    <property name="value">
+     <number>0</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QSlider" name="horizontalSlider_c2">
+    <property name="geometry">
+     <rect>
+      <x>532</x>
+      <y>349</y>
+      <width>501</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Expanding" vsizetype="Maximum">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>20</width>
+      <height>20</height>
+     </size>
+    </property>
+    <property name="minimum">
+     <number>-90</number>
+    </property>
+    <property name="maximum">
+     <number>90</number>
+    </property>
+    <property name="value">
+     <number>0</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

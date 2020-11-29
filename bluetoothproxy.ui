@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>BluetoothProxy</class>
+ <widget class="QDialog" name="BluetoothProxy">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1580</width>
+    <height>824</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>7</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">border-image:url(:/image/back4.png);</string>
+  </property>
+  <widget class="QPushButton" name="pushButton_open">
+   <property name="geometry">
+    <rect>
+     <x>1100</x>
+     <y>70</y>
+     <width>181</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>8</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image:url(:/image/bu.png);
+color:rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>打开蓝牙</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_close">
+   <property name="geometry">
+    <rect>
+     <x>1100</x>
+     <y>180</y>
+     <width>181</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image:url(:/image/bu.png);
+color:rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>关闭蓝牙</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_find">
+   <property name="geometry">
+    <rect>
+     <x>1100</x>
+     <y>300</y>
+     <width>181</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image:url(:/image/bu.png);
+color:rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>扫描设备</string>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="list">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>50</y>
+     <width>951</width>
+     <height>731</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image:url(:/image/back3.png);</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_break">
+   <property name="geometry">
+    <rect>
+     <x>1100</x>
+     <y>400</y>
+     <width>181</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image:url(:/image/bu.png);
+color:rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>断开连接</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_return">
+   <property name="geometry">
+    <rect>
+     <x>1100</x>
+     <y>530</y>
+     <width>181</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image:url(:/image/bu.png);
+color:rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>回到主界面</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
